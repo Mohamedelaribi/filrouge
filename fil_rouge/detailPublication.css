@@ -1,0 +1,81 @@
+
+.navDetail{
+    background-color: black;
+    height: 15vh;
+}
+.detailPblication{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+.leftDiv{
+    width: 50%;
+    margin: 77px 10px 20px 70px;
+}
+.rightDIV{
+    width: 50%;
+}
+.imageLeft{
+    width: 67vh;
+    height: 50vh;
+    margin-left: 9px;
+}
+.moreImages{
+    display: flex;
+    width: 484px;
+    justify-content: space-around;
+}
+.morImagesdown{
+    width: 15vh;
+    height: 15vh;
+}
+.detaileLibelle{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.detaileDescription{
+    font-size: 20px;
+    width: 650px;
+    margin-bottom: 20px;
+}
+.detaileAdresse{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.reviews{
+    margin: 30px 0px 20px 77px;
+}
+.Preview{
+    display: flex;
+    align-items: center;
+}
+.review{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.user{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.commande{
+    margin: 10px 30px 20px 40px;
+}
+.reviewText{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 5px;
+    margin: 10px 0px 30px 10px;
+}
+
+#tow, #three,#four,#five {
+    display: none
+  }

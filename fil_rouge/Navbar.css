@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Poppins'
+}
+
+
+.navBar{
+    display: grid;
+    grid-template-columns: 300px auto auto;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.inkLogo{
+    width: 160px;
+}
+
+.logo{
+width: 150px;
+height: 60px;
+size: 30px;
+margin-top: 10px;
+}
+
+#divLinks{
+    display: flex;
+    font-size: 25px;
+    margin: 30px 0px;
+    text-align: center;
+    width: 550px;
+    justify-content: space-around;
+    min-width: 600px;
+}
+
+#Links{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+
+}
+#Links:after{
+    content: "";
+    position: absolute;
+    background-color: #1A2252;
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: -10px;
+    transition: 0.2s;
+}
+#Links:hover{
+    color: #1A2252;
+}
+#Links:hover:after{
+    width: 100%;
+}
+
+.tangerLaPorteDeMaroc{
+    margin-left:   130px;
+}
+
+.divNavBar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration:none;
+}
+#divNavBar{
+    text-decoration: none;
+
+}
+#favoris{
+margin-top: 10px;
+color: white;
+}
+
+
+.login{
+    background-color: #1A2252;
+    text-align: center;
+    border-radius:10px;
+    border: none;
+    width:100px;
+    height: 40px;
+
+}
+#loginLink{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 20px;
+}
+#fullname{
+    font-style: bold;
+    color: white;
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+    background-color: black;
+    height: 8vh;
+    width: auto;
+}
+.copyRight{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    bottom: 10px;
+}
+#copyRight{
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    left: 27px;
+}
+.facebook{
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    right: 10px;
+    bottom: 10px;
+}
+.whatsapp{
+position: absolute;
+color: #ffffff;
+font-size: 20px;
+right: 35px;
+bottom: 10px;
+}
+.instagram{
+position: absolute;
+color: #ffffff;
+font-size: 20px;
+right: 57px;
+bottom: 10px;
+}
+
+
+

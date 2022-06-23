@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.logo{
+    margin-bottom: 30px;
+    margin-left: -170px;
+}
+h1{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: -240px;
+}
+h3{
+    margin-left: -220px;
+    margin-top: 0px;
+    font-weight: 700;
+    font-weight: bolder;
+}
+
+.littlelogin{
+    display: flex;
+background-color: white;
+text-align: center;
+height: 500px;
+border-radius: 20px;
+box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.292);
+}
+.loginleft{
+    padding-top: 50px;
+    width: 50%;
+    background-color: #F6F6F6;
+}
+.loginright{
+    width: 50%;
+    background-image: url("assets/tanger.png");
+    background-position: center;
+    background-size: cover;
+}
+input{
+    border: none;
+    border-radius: 7px;
+    padding-right: 180px ;
+    padding-left: 20px;
+    padding: 8px 180px 8px 20px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-left: -30px;
+}
+p{
+    margin-left: 170px;
+    font-size: 10px;
+}
+.btn{
+    font-size: 10px;
+    margin-top: 50px;
+    background-color: #203060;
+    color: white;
+    padding-right: 170px;
+    padding-left: 170px;
+    margin-left: -30px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

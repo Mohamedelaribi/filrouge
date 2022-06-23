@@ -1,0 +1,150 @@
+
+
+.section{
+    background-image: url(images/tanger1.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.aboutTanger{
+    height: 100vh;
+}
+#aboutTanger1{
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 96px;
+position: absolute;
+left: 97px;
+top: 568px;
+margin: 20px ;
+margin-left: 100px;
+color: #0f1e75;
+}
+
+.aboutTanger1{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+position: relative;
+width: 1089px;
+height: 534px;
+left: 19px;
+top: 140px;
+box-shadow: 2px 13px 53px 5px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+}
+
+.imageAboutTanger{
+position: absolute;
+width: 309px;
+height: 425px;
+left: 55px;
+top: 30px;
+}
+.imageAboutTanger2{
+    position: absolute;
+    width: 300px;
+    height: 425px;
+    left: 220px;
+    top: 100px;
+}
+.tangerLaporte{
+    position: absolute;
+    font-size: 25px;
+    font-style: normal;
+    font-weight:400;
+    top: 30px;
+}
+
+.mainCategory{
+margin: 3em 0px 30px 1em;
+}
+.category{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 96px;
+    left: 97px;
+    margin: 20px ;
+    color: #1A2252;
+}
+.divCategory{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-catégorie{
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4 ease-out;
+	background:radial-gradient(#111 50%, #000 100%);
+}
+.card-catégorie img{
+    transform: scale(1.3);
+    transition: all 0.4 ease-out;
+}
+
+.card-catégorie:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+}
+.card-catégorie .description{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.card-catégorie .description h3{
+	font-weight: 700;
+	font-size: 35px;
+	margin: 0 0 20px;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out;
+
+}
+
+.card-catégorie:hover .description h3{
+	opacity: 1;
+	transform: translateY(0px);
+}
+#commentAllerATanger{
+text-align: center;
+margin: 50px;
+color: #1A2252;
+}
+
+.mainCard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.commentAllerATangerText{
+    padding: 30px;
+    font-size: 30px;
+}
+.commentAllerATangerImg{
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 200px;
+}
+.laMiasonBlanch{
+height: 60vh;
+width: 150vh;
+}
+.apropreNous{
+    color: #1A2252;
+    margin: 30px;
+    text-align: center;
+}
+#apropreNous{
+    padding: 30px;
+    font-size: 30px;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Poppins'
+}
+.section{
+    background-color: black;
+    margin-bottom: 70px;
+}
+
+.bienvenueATanger{
+margin: 10px;
+text-align: center;
+}
+#bienvenueATanger{
+    font-style: oblique;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+.filtre{
+    margin: 60px 0px 0px 60px;
+}
+.buttonPourFltr{
+    margin-left: 5px;
+    width: 140px;
+    height: 45px;
+    background-color: #1D47CD;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+}
+.publication{
+    position:relative;
+    width: 290px;
+    border-radius:10px;
+    height: 500px;
+    margin: 44px 24px 18px 20px;
+    box-shadow: 7px 10px 35px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.leMirage2{
+    position: absolute;
+    width: 289px;
+    height: 228px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+.MoreInformation{
+    position: absolute;
+    width:150px;
+    height:40px;
+    top: 445px;
+    left: 10px;
+    background-color: #1D47CD;
+    border: none;
+    border-radius:10px;
+    color: #fff;
+    cursor: pointer;
+}
+.lebille{
+    position: absolute;
+    left: 38px;
+    top: 237px;
+}
+.prix{
+    position: absolute;
+    left: 30px;
+    top: 380px;
+    
+}
+.adresse{
+    position: absolute;
+    top: 295px;
+    left:20px ;
+}
+.lien{
+    position: absolute;
+    left: 30px;
+    top: 412px;
+}
+
+
+.publications{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
